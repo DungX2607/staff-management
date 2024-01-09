@@ -21,8 +21,10 @@
 - Login, logout
 - Basic Auth để xác thực
 
-## Công nghệ sử dụng
+## Công nghệ và thư viện sử dụng
 - Spring Boot 3.2.1
-- JDK 17
 - Spring Security 6
 - MySQL
+- Lombok
+- Spring Data JPA
+- Form, Specification, Model Mapper
