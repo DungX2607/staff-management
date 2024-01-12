@@ -20,6 +20,4 @@ public class ManagerDto {
     private int namSinh;
 
     private ManagerRole role;
-
-    private int chinhanhId;
 }

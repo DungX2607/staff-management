@@ -17,6 +17,4 @@ public class StaffDto {
     private int namSinh;
 
     private StaffRole role;
-
-    private int chiNhanhID;
 }
