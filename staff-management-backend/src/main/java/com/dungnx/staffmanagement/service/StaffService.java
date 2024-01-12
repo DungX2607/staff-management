@@ -1,11 +1,11 @@
-package com.dungnx.salesmanagement.service;
+package com.dungnx.staffmanagement.service;
 
-import com.dungnx.salesmanagement.entity.Staff;
-import com.dungnx.salesmanagement.form.staff.CreateStaffForm;
-import com.dungnx.salesmanagement.form.staff.StaffFilterForm;
-import com.dungnx.salesmanagement.form.staff.UpdateStaffForm;
-import com.dungnx.salesmanagement.repository.IStaffRepository;
-import com.dungnx.salesmanagement.specification.Staff.StaffSpecification;
+import com.dungnx.staffmanagement.entity.Staff;
+import com.dungnx.staffmanagement.form.staff.CreateStaffForm;
+import com.dungnx.staffmanagement.form.staff.StaffFilterForm;
+import com.dungnx.staffmanagement.form.staff.UpdateStaffForm;
+import com.dungnx.staffmanagement.repository.IStaffRepository;
+import com.dungnx.staffmanagement.specification.Staff.StaffSpecification;
 import jakarta.transaction.Transactional;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.PropertyMap;

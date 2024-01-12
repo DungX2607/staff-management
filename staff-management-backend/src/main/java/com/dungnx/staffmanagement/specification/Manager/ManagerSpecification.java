@@ -1,7 +1,7 @@
-package com.dungnx.salesmanagement.specification.Manager;
+package com.dungnx.staffmanagement.specification.Manager;
 
-import com.dungnx.salesmanagement.entity.Manager;
-import com.dungnx.salesmanagement.form.manager.ManagerFilterForm;
+import com.dungnx.staffmanagement.entity.Manager;
+import com.dungnx.staffmanagement.form.manager.ManagerFilterForm;
 
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.util.StringUtils;
@@ -18,9 +18,9 @@ public class ManagerSpecification {
             where = Specification.where(username);
         }
 
-        // if there is filter by min dongia
+        // if there is filter by minID
         if (filterForm != null && filterForm.getMinID() != null) {
-            CustomManagerSpecification minId = new CustomManagerSpecification("minSoLuongQuanLy", filterForm.getMinID());
+            CustomManagerSpecification minId = new CustomManagerSpecification("minID", filterForm.getMinID());
             if (where == null) {
                 where = minId;
             } else {
@@ -28,9 +28,9 @@ public class ManagerSpecification {
             }
         }
 
-        // if there is filter by max dongia
+        // if there is filter by maxID
         if (filterForm != null && filterForm.getMaxID() != null) {
-            CustomManagerSpecification maxId = new CustomManagerSpecification("maxSoLuongQuanLy", filterForm.getMaxID());
+            CustomManagerSpecification maxId = new CustomManagerSpecification("maxID", filterForm.getMaxID());
             if (where == null) {
                 where = maxId;
             } else {

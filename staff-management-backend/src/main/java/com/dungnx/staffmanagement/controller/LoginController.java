@@ -1,10 +1,10 @@
-package com.dungnx.salesmanagement.controller;
+package com.dungnx.staffmanagement.controller;
 
 import java.security.Principal;
 
-import com.dungnx.salesmanagement.dto.LoginInfoDto;
-import com.dungnx.salesmanagement.entity.Manager;
-import com.dungnx.salesmanagement.service.IManagerService;
+import com.dungnx.staffmanagement.dto.LoginInfoDto;
+import com.dungnx.staffmanagement.entity.Manager;
+import com.dungnx.staffmanagement.service.IManagerService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

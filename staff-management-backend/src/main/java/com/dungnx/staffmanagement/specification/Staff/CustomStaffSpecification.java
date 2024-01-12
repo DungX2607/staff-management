@@ -1,6 +1,6 @@
-package com.dungnx.salesmanagement.specification.Staff;
+package com.dungnx.staffmanagement.specification.Staff;
 
-import com.dungnx.salesmanagement.entity.Staff;
+import com.dungnx.staffmanagement.entity.Staff;
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;
 import jakarta.persistence.criteria.Predicate;

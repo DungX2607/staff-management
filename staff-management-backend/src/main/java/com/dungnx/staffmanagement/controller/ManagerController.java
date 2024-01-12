@@ -1,14 +1,13 @@
-package com.dungnx.salesmanagement.controller;
+package com.dungnx.staffmanagement.controller;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
-import com.dungnx.salesmanagement.dto.ManagerDto;
-import com.dungnx.salesmanagement.entity.Manager;
-import com.dungnx.salesmanagement.form.manager.CreateManagerForm;
-import com.dungnx.salesmanagement.form.manager.ManagerFilterForm;
-import com.dungnx.salesmanagement.form.manager.UpdateManagerForm;
-import com.dungnx.salesmanagement.service.IManagerService;
+import com.dungnx.staffmanagement.dto.ManagerDto;
+import com.dungnx.staffmanagement.entity.Manager;
+import com.dungnx.staffmanagement.form.manager.CreateManagerForm;
+import com.dungnx.staffmanagement.form.manager.ManagerFilterForm;
+import com.dungnx.staffmanagement.form.manager.UpdateManagerForm;
+import com.dungnx.staffmanagement.service.IManagerService;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;

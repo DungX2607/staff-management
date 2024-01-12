@@ -1,4 +1,4 @@
-package com.dungnx.salesmanagement.entity;
+package com.dungnx.staffmanagement.entity;
 
 public enum ManagerRole {
     ADMIN,

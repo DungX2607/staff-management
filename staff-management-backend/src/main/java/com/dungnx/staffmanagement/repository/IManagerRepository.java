@@ -1,6 +1,6 @@
-package com.dungnx.salesmanagement.repository;
+package com.dungnx.staffmanagement.repository;
 
-import com.dungnx.salesmanagement.entity.Manager;
+import com.dungnx.staffmanagement.entity.Manager;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 

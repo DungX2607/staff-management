@@ -1,13 +1,7 @@
-package com.dungnx.salesmanagement.specification.Staff;
+package com.dungnx.staffmanagement.specification.Staff;
 
-import com.dungnx.salesmanagement.entity.Staff;
-import com.dungnx.salesmanagement.form.staff.StaffFilterForm;
-import jakarta.persistence.criteria.CriteriaBuilder;
-import jakarta.persistence.criteria.CriteriaQuery;
-import jakarta.persistence.criteria.Predicate;
-import jakarta.persistence.criteria.Root;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
+import com.dungnx.staffmanagement.entity.Staff;
+import com.dungnx.staffmanagement.form.staff.StaffFilterForm;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.util.StringUtils;
 
@@ -23,9 +17,9 @@ public class StaffSpecification {
             where = Specification.where(fullName);
         }
 
-        // if there is filter by min dongia
+        // if there is filter by minID
         if (filterForm != null && filterForm.getMinID() != null) {
-            CustomStaffSpecification minId = new CustomStaffSpecification("minSoLuongNhanVien", filterForm.getMinID());
+            CustomStaffSpecification minId = new CustomStaffSpecification("minID", filterForm.getMinID());
             if (where == null) {
                 where = minId;
             } else {
@@ -33,9 +27,9 @@ public class StaffSpecification {
             }
         }
 
-        // if there is filter by max dongia
+        // if there is filter by maxID
         if (filterForm != null && filterForm.getMaxID() != null) {
-            CustomStaffSpecification maxId = new CustomStaffSpecification("maxSoLuongNhanVien", filterForm.getMaxID());
+            CustomStaffSpecification maxId = new CustomStaffSpecification("maxID", filterForm.getMaxID());
             if (where == null) {
                 where = maxId;
             } else {

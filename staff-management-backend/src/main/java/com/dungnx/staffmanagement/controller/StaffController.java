@@ -1,11 +1,11 @@
-package com.dungnx.salesmanagement.controller;
+package com.dungnx.staffmanagement.controller;
 
-import com.dungnx.salesmanagement.dto.StaffDto;
-import com.dungnx.salesmanagement.entity.Staff;
-import com.dungnx.salesmanagement.form.staff.CreateStaffForm;
-import com.dungnx.salesmanagement.form.staff.StaffFilterForm;
-import com.dungnx.salesmanagement.form.staff.UpdateStaffForm;
-import com.dungnx.salesmanagement.service.IStaffService;
+import com.dungnx.staffmanagement.dto.StaffDto;
+import com.dungnx.staffmanagement.entity.Staff;
+import com.dungnx.staffmanagement.form.staff.CreateStaffForm;
+import com.dungnx.staffmanagement.form.staff.StaffFilterForm;
+import com.dungnx.staffmanagement.form.staff.UpdateStaffForm;
+import com.dungnx.staffmanagement.service.IStaffService;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 @RestController
 @RequestMapping(value = "api/v1/staff")

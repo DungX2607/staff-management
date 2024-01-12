@@ -1,9 +1,9 @@
-package com.dungnx.salesmanagement.service;
+package com.dungnx.staffmanagement.service;
 
-import com.dungnx.salesmanagement.entity.Staff;
-import com.dungnx.salesmanagement.form.staff.CreateStaffForm;
-import com.dungnx.salesmanagement.form.staff.StaffFilterForm;
-import com.dungnx.salesmanagement.form.staff.UpdateStaffForm;
+import com.dungnx.staffmanagement.entity.Staff;
+import com.dungnx.staffmanagement.form.staff.CreateStaffForm;
+import com.dungnx.staffmanagement.form.staff.StaffFilterForm;
+import com.dungnx.staffmanagement.form.staff.UpdateStaffForm;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

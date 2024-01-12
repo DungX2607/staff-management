@@ -1,7 +1,7 @@
-package com.dungnx.salesmanagement.form.manager;
+package com.dungnx.staffmanagement.form.manager;
 
-import com.dungnx.salesmanagement.entity.Gender;
-import com.dungnx.salesmanagement.entity.ManagerRole;
+import com.dungnx.staffmanagement.entity.Gender;
+import com.dungnx.staffmanagement.entity.ManagerRole;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -11,7 +11,7 @@ public class CreateManagerForm {
     private String firstName;
     private String lastName;
     private Gender gender;
-    private int namSinh;
+    private int yearOfBirth;
     private String username;
     private String password;
     private ManagerRole role;

@@ -1,11 +1,11 @@
-package com.dungnx.salesmanagement.service;
+package com.dungnx.staffmanagement.service;
 
-import com.dungnx.salesmanagement.entity.Manager;
-import com.dungnx.salesmanagement.form.manager.CreateManagerForm;
-import com.dungnx.salesmanagement.form.manager.ManagerFilterForm;
-import com.dungnx.salesmanagement.form.manager.UpdateManagerForm;
-import com.dungnx.salesmanagement.repository.IManagerRepository;
-import com.dungnx.salesmanagement.specification.Manager.ManagerSpecification;
+import com.dungnx.staffmanagement.entity.Manager;
+import com.dungnx.staffmanagement.form.manager.CreateManagerForm;
+import com.dungnx.staffmanagement.form.manager.ManagerFilterForm;
+import com.dungnx.staffmanagement.form.manager.UpdateManagerForm;
+import com.dungnx.staffmanagement.repository.IManagerRepository;
+import com.dungnx.staffmanagement.specification.Manager.ManagerSpecification;
 import jakarta.transaction.Transactional;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.PropertyMap;

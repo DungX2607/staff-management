@@ -1,4 +1,4 @@
-package com.dungnx.salesmanagement.config;
+package com.dungnx.staffmanagement.config;
 
 import java.util.HashMap;
 import java.util.Map;

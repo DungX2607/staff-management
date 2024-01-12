@@ -1,7 +1,7 @@
-package com.dungnx.salesmanagement.dto;
+package com.dungnx.staffmanagement.dto;
 
-import com.dungnx.salesmanagement.entity.Gender;
-import com.dungnx.salesmanagement.entity.StaffRole;
+import com.dungnx.staffmanagement.entity.Gender;
+import com.dungnx.staffmanagement.entity.StaffRole;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -14,7 +14,7 @@ public class StaffDto {
 
     private Gender gender;
 
-    private int namSinh;
+    private int yearOfBirth;
 
     private StaffRole role;
 }

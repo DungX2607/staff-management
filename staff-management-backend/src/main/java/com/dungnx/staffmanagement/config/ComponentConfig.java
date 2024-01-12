@@ -1,4 +1,4 @@
-package com.dungnx.salesmanagement.config;
+package com.dungnx.staffmanagement.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

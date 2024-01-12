@@ -1,4 +1,4 @@
-package com.dungnx.salesmanagement.entity;
+package com.dungnx.staffmanagement.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -34,7 +34,7 @@ public class Staff {
     @Enumerated(EnumType.STRING)
     private StaffRole role;
 
-    @Column(name = "namSinh")
-    private int namSinh;
+    @Column(name = "yearOfBirth")
+    private int yearOfBirth;
 
 }

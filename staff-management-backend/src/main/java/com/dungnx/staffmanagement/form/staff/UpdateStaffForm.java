@@ -1,7 +1,7 @@
-package com.dungnx.salesmanagement.form.staff;
+package com.dungnx.staffmanagement.form.staff;
 
-import com.dungnx.salesmanagement.entity.Gender;
-import com.dungnx.salesmanagement.entity.StaffRole;
+import com.dungnx.staffmanagement.entity.Gender;
+import com.dungnx.staffmanagement.entity.StaffRole;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -13,5 +13,5 @@ public class UpdateStaffForm {
     private String lastName;
     private Gender gender;
     private StaffRole role;
-    private int namSinh;
+    private int yearOfBirth;
 }

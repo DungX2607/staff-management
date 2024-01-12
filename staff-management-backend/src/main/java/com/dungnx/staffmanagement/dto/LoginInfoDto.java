@@ -1,4 +1,4 @@
-package com.dungnx.salesmanagement.dto;
+package com.dungnx.staffmanagement.dto;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,4 @@
-package com.dungnx.salesmanagement.form.staff;
+package com.dungnx.staffmanagement.form.staff;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

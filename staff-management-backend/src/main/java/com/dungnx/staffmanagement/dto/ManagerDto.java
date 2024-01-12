@@ -1,10 +1,9 @@
-package com.dungnx.salesmanagement.dto;
+package com.dungnx.staffmanagement.dto;
 
-import com.dungnx.salesmanagement.entity.Gender;
-import com.dungnx.salesmanagement.entity.ManagerRole;
+import com.dungnx.staffmanagement.entity.Gender;
+import com.dungnx.staffmanagement.entity.ManagerRole;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.hateoas.RepresentationModel;
 
 @Data
 @NoArgsConstructor
@@ -17,7 +16,7 @@ public class ManagerDto {
 
     private Gender gender;
 
-    private int namSinh;
+    private int yearOfBirth;
 
     private ManagerRole role;
 }

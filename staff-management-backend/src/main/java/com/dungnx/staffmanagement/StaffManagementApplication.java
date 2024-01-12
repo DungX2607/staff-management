@@ -1,4 +1,4 @@
-package com.dungnx.salesmanagement;
+package com.dungnx.staffmanagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

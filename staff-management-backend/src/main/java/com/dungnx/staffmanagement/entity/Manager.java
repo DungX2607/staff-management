@@ -1,4 +1,4 @@
-package com.dungnx.salesmanagement.entity;
+package com.dungnx.staffmanagement.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -30,8 +30,8 @@ public class Manager {
     @Column(name = "gender", columnDefinition = "ENUM('MALE', 'FEMALE', 'OTHER')")
     private Gender gender;
 
-    @Column(name = "namSinh")
-    private int namSinh;
+    @Column(name = "yearOfBirth")
+    private int yearOfBirth;
 
     @Column(name = "username", length = 50, nullable = false, unique = true)
     private String username;

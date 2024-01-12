@@ -1,9 +1,9 @@
-package com.dungnx.salesmanagement.service;
+package com.dungnx.staffmanagement.service;
 
-import com.dungnx.salesmanagement.entity.Manager;
-import com.dungnx.salesmanagement.form.manager.CreateManagerForm;
-import com.dungnx.salesmanagement.form.manager.ManagerFilterForm;
-import com.dungnx.salesmanagement.form.manager.UpdateManagerForm;
+import com.dungnx.staffmanagement.entity.Manager;
+import com.dungnx.staffmanagement.form.manager.CreateManagerForm;
+import com.dungnx.staffmanagement.form.manager.ManagerFilterForm;
+import com.dungnx.staffmanagement.form.manager.UpdateManagerForm;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.security.core.userdetails.UserDetailsService;
